@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         title: 'Roboto_700Bold',
-        body: 'Roboto_700Regular',
+        body: 'Roboto_700Bold',
         alt: 'BaiJamjuree_700Bold',
       },
 
