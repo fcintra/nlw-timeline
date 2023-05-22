@@ -18,6 +18,7 @@ const discovery = {
 export default function App() {
   const router = useRouter()
 
+  // eslint-disable-next-line no-unused-vars
   const [request, response, signInWithGithub] = useAuthRequest(
     {
       clientId: 'd7bb9977ae08f76f716d',
@@ -52,8 +53,6 @@ export default function App() {
   return (
     <View className="flex-1 items-center px-8 py-10">
       <View className="flex-1 items-center justify-center gap-6">
-        <NlwLogo />
-
         <View className="space-y-2">
           <Text className="text-center font-title text-2xl leading-tight text-gray-50">
             Sua cápsula do tempo
